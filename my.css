@@ -1,0 +1,135 @@
+body {
+    background: url(Image/banner.jpg);
+    color: white;
+}
+
+/* start header*/
+
+.headr h1 {
+    float: left;
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+#g {
+    color: #737373
+}
+
+.headr p {
+    float: right;
+}
+
+#mego {
+    font-size: 40px;
+    font-weight: 100;
+    padding-left: 0;
+}
+
+#front {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+nav {
+    overflow: auto;
+    border-bottom: 2px solid grey;
+}
+
+header {
+    margin-bottom: 10px;
+}
+
+@media (min-width:1125px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+/* end header*/
+
+/* start main*/
+
+.main img {
+    width: 100%;
+}
+
+/* end main*/
+
+/* start foot*/
+
+.work {
+    text-decoration: none;
+    color: grey;
+}
+
+.flexo {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pro {
+    margin: 10px;
+    border: 2px solid grey;
+    box-shadow: 4px 4px 8px black;
+    text-align: center;
+
+}
+
+.pro img {
+    width: 100%;
+}
+
+.flexo .pro img {
+    height: 270px;
+}
+
+@media (min-width:860px) {
+    .pro {
+        width: 35%;
+    }
+}
+
+@media (min-width:1200px) {
+    .pro {
+        width: 21.3333%;
+        margin: auto;
+    }
+}
+
+/* end foot*/
+
+/* start media*/
+
+.media {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fi {
+    margin: 40px
+}
+
+.media a {
+    text-decoration: none;
+}
+
+/*end media*/
+
+/*start copyright*/
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+/*end copyright*/
